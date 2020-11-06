@@ -129,7 +129,32 @@
 				</executions>
 			</plugin>
 		</plugins>
+		
+		 <!-- 如果需要的话, 将依赖包单独拷贝到 target/ac_files/libfiles 下  名称与classpathPrefix对应
+	        <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-dependency-plugin</artifactId>
+	            <executions>
+	                <execution>
+	                    <id>copy-lib</id>
+	                    <phase>prepare-package</phase>
+	                    <goals>
+	                        <goal>copy-dependencies</goal>
+	                    </goals>
+	                    <configuration>
+	                        <outputDirectory>${project.build.directory}/ac_files/libfiles</outputDirectory>
+	                        <overWriteReleases>false</overWriteReleases>
+	                        <overWriteSnapshots>false</overWriteSnapshots>
+	                        <overWriteIfNewer>true</overWriteIfNewer>
+	                        <includeScope>compile</includeScope>
+	                    </configuration>
+	                </execution>
+	            </executions>
+	        </plugin> -->
+
 	</build>
+	
+	
 
 
 	<repositories>
@@ -137,7 +162,7 @@
 		<repository>
 			<id>maven-anche</id>
 			<name>Deploy Server</name>
-			<url>http://anchedata.myqnapcloud.com:8891/repository/maven-anche/</url>
+			<url>config url</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
