@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="cn.anche.service.eoms.datacenter.mapper.MaintainInfoMapper">
+	<insert id="batchSaveMaintainInfo"
+		parameterType="java.util.ArrayList">
+		insert into ac_device_maintain
+		(id, customerid, customername, deviceno, devicename, maintain_time, last_maintain_time, content,  remark) 
+		values
+		<foreach collection="list" item="item" index="index" separator=",">
+			(#{item.id},
+			#{item.customerid},
+			#{item.customername},
+			#{item.deviceno},
+			#{item.devicename},
+			#{item.maintainTime},
+			#{item.lastMaintainTime},
+			#{item.content},
+			#{item.remark})
+		</foreach>
+		on duplicate key update maintain_time = values(maintain_time), last_maintain_time = values(last_maintain_time)
+	</insert>
+
+</mapper>

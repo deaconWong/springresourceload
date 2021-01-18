@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="cn.anche.service.eoms.datacenter.mapper.AcOriginalDataBacthOperateMapper">
+	<delete id="batchDelete" parameterType="java.util.ArrayList">
+		delete from ac_eomsreceive_originaldata
+		where id in
+		<foreach collection="list" item="item" index="index" open="("
+			close=")" separator=",">
+			#{item.id}
+		</foreach>
+	</delete>
+
+	<insert id="batchSave" parameterType="java.util.ArrayList">
+		insert into ac_eomsreceive_originaldata_bak(id, customerid,
+		customername, originaldata, receive_time, from_addr, data_clear_flag,
+		data_clear_time, remark) values
+		<foreach collection="list" item="item" index="index" separator=",">
+			(#{item.id},
+			#{item.customerid},
+			#{item.customername},
+			#{item.originaldata},
+			#{item.receiveTime},
+			#{item.fromAddr},
+			#{item.dataClearFlag},
+			#{item.dataClearTime},
+			#{item.remark})
+		</foreach>
+	</insert>
+	
+	
+
+
+</mapper>
