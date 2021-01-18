@@ -138,3 +138,4 @@
 2021-01-18 14:54:04:889 io.lettuce.core.EpollProvider - Starting without optional epoll library
 2021-01-18 14:54:04:891 io.lettuce.core.KqueueProvider - Starting without optional kqueue library
 2021-01-18 14:57:12:532 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:57:12:544 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11ms. Found 0 Redis repository interfaces.
