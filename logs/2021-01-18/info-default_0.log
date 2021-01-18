@@ -1,0 +1,140 @@
+2021-01-18 14:17:10:187 deacon.test.spb.SpbTestApplication2 - Starting SpbTestApplication2 on DeaconWong with PID 24724 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:17:10:189 deacon.test.spb.SpbTestApplication2 - The following profiles are active: dev
+2021-01-18 14:17:10:580 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:17:10:582 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:17:10:612 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2021-01-18 14:18:32:308 deacon.test.spb.SpbTestApplication2 - Starting SpbTestApplication2 on DeaconWong with PID 20600 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:18:32:309 deacon.test.spb.SpbTestApplication2 - The following profiles are active: dev
+2021-01-18 14:18:32:716 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:18:32:718 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:18:32:747 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2021-01-18 14:19:28:614 deacon.test.spb.SpbTestApplication2 - Starting SpbTestApplication2 on DeaconWong with PID 17272 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:19:28:615 deacon.test.spb.SpbTestApplication2 - The following profiles are active: dev
+2021-01-18 14:19:29:019 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:19:29:022 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:19:29:053 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2021-01-18 14:21:11:951 deacon.test.spb.SpbTestApplication2 - Starting SpbTestApplication2 on DeaconWong with PID 2336 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:21:11:952 deacon.test.spb.SpbTestApplication2 - The following profiles are active: dev
+2021-01-18 14:21:12:315 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:21:12:317 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:21:12:345 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2021-01-18 14:22:42:331 deacon.test.spb.SpbTestApplication2 - Starting SpbTestApplication2 on DeaconWong with PID 18780 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:22:42:332 deacon.test.spb.SpbTestApplication2 - The following profiles are active: dev
+2021-01-18 14:22:42:762 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:22:42:764 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:22:42:794 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 Redis repository interfaces.
+2021-01-18 14:22:43:540 d.t.s.u.AcEomsDataCollectApplicationListener - 使用ResourceUtils在jar中加载配置文件-->:C:\Users\wangi\git\springresourceload\target\classes\application-dev.yml
+2021-01-18 14:22:43:543 deacon.test.spb.SpbTestApplication2 - Started SpbTestApplication2 in 1.732 seconds (JVM running for 2.685)
+2021-01-18 14:27:40:452 deacon.test.spb.SpbTestApplication2 - Starting SpbTestApplication2 on DeaconWong with PID 8252 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:27:40:453 deacon.test.spb.SpbTestApplication2 - The following profiles are active: dev
+2021-01-18 14:27:40:818 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:27:40:820 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:27:40:852 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 Redis repository interfaces.
+2021-01-18 14:28:14:289 d.t.s.u.AcEomsDataCollectApplicationListener - 使用ResourceUtils在jar中加载配置文件-->:C:\Users\wangi\git\springresourceload\target\classes\application-dev.yml
+2021-01-18 14:28:14:292 deacon.test.spb.SpbTestApplication2 - Started SpbTestApplication2 in 34.257 seconds (JVM running for 35.211)
+2021-01-18 14:30:08:397 deacon.test.spb.SpbTestApplication - Starting SpbTestApplication on DeaconWong with PID 3848 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:30:08:398 deacon.test.spb.SpbTestApplication - The following profiles are active: dev
+2021-01-18 14:30:08:721 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:30:08:723 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:30:08:744 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5ms. Found 0 Redis repository interfaces.
+2021-01-18 14:30:09:397 d.t.s.u.AcEomsDataCollectApplicationListener - 使用ResourceUtils在jar中加载配置文件-->:C:\Users\wangi\git\springresourceload\target\classes\application-dev.yml
+2021-01-18 14:30:09:400 deacon.test.spb.SpbTestApplication - Started SpbTestApplication in 1.397 seconds (JVM running for 2.294)
+2021-01-18 14:31:08:183 deacon.test.spb.SpbTestApplication - Starting SpbTestApplication on DeaconWong with PID 15292 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:31:08:185 deacon.test.spb.SpbTestApplication - The following profiles are active: dev
+2021-01-18 14:31:08:759 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:31:08:761 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:31:08:795 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2021-01-18 14:31:09:415 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [deacon.test.spb.config.RedisConfig$$EnhancerBySpringCGLIB$$a4effc77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-18 14:31:09:810 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2021-01-18 14:31:09:825 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2021-01-18 14:31:09:826 o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-18 14:31:09:826 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-01-18 14:31:09:928 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-18 14:31:09:928 o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1707 ms
+2021-01-18 14:31:15:391 o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-18 14:31:15:680 d.t.s.u.AcEomsDataCollectApplicationListener - 使用ResourceUtils在jar中加载配置文件-->:C:\Users\wangi\git\springresourceload\target\classes\application-dev.yml
+2021-01-18 14:31:15:681 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2021-01-18 14:31:15:708 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+2021-01-18 14:31:15:712 deacon.test.spb.SpbTestApplication - Started SpbTestApplication in 8.035 seconds (JVM running for 9.084)
+2021-01-18 14:38:28:290 deacon.test.spb.SpbTestApplication - Starting SpbTestApplication on DeaconWong with PID 456 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:38:28:292 deacon.test.spb.SpbTestApplication - The following profiles are active: dev
+2021-01-18 14:38:29:314 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:38:29:319 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:38:29:390 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15ms. Found 0 Redis repository interfaces.
+2021-01-18 14:39:31:060 deacon.test.spb.SpbTestApplication - Starting SpbTestApplication on DeaconWong with PID 20964 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:39:31:061 deacon.test.spb.SpbTestApplication - The following profiles are active: dev
+2021-01-18 14:39:31:949 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:39:31:952 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:39:32:005 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2021-01-18 14:41:15:533 deacon.test.spb.SpbTestApplication - Starting SpbTestApplication on DeaconWong with PID 15808 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:41:15:534 deacon.test.spb.SpbTestApplication - The following profiles are active: dev
+2021-01-18 14:41:16:532 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:41:16:536 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:41:16:605 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2021-01-18 14:42:54:947 deacon.test.spb.SpbTestApplication - Starting SpbTestApplication on DeaconWong with PID 10816 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:42:54:947 deacon.test.spb.SpbTestApplication - The following profiles are active: dev
+2021-01-18 14:42:55:819 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:42:55:823 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:42:55:883 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2021-01-18 14:42:56:282 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [deacon.test.spb.config.RedisConfig$$EnhancerBySpringCGLIB$$8458067d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-18 14:42:56:903 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2021-01-18 14:42:56:920 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2021-01-18 14:42:56:921 o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-18 14:42:56:921 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-01-18 14:42:57:346 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-18 14:42:57:347 o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2326 ms
+2021-01-18 14:42:58:250 o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-18 14:42:58:681 d.t.s.u.AcEomsDataCollectApplicationListener - 使用ResourceUtils在jar中加载配置文件-->:G:\workspaces\projects\project\2020\ywpt\spb-test\target\classes\application-dev.yml
+2021-01-18 14:42:58:682 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2021-01-18 14:42:58:728 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+2021-01-18 14:42:58:734 deacon.test.spb.SpbTestApplication - Started SpbTestApplication in 4.674 seconds (JVM running for 14.809)
+2021-01-18 14:43:06:621 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-18 14:43:06:622 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-18 14:43:06:635 o.s.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2021-01-18 14:43:29:119 io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-01-18 14:43:29:122 io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-01-18 14:45:28:504 deacon.test.spb.SpbTestApplication - Starting SpbTestApplication on DeaconWong with PID 23964 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:45:28:505 deacon.test.spb.SpbTestApplication - The following profiles are active: dev
+2021-01-18 14:45:29:285 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:45:29:289 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:45:29:346 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 18ms. Found 0 Redis repository interfaces.
+2021-01-18 14:45:29:744 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [deacon.test.spb.config.RedisConfig$$EnhancerBySpringCGLIB$$d9ade71a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-18 14:45:30:208 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2021-01-18 14:45:30:224 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2021-01-18 14:45:30:225 o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-18 14:45:30:225 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-01-18 14:45:30:329 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-18 14:45:30:329 o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1755 ms
+2021-01-18 14:45:31:424 o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-18 14:45:31:763 d.t.s.u.AcEomsDataCollectApplicationListener - 使用ResourceUtils在jar中加载配置文件-->:G:\workspaces\projects\project\2020\ywpt\spb-test\target\classes\application-dev.yml
+2021-01-18 14:45:31:766 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2021-01-18 14:45:31:807 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+2021-01-18 14:45:31:815 deacon.test.spb.SpbTestApplication - Started SpbTestApplication in 4.21 seconds (JVM running for 14.208)
+2021-01-18 14:45:36:016 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-18 14:45:36:016 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-18 14:45:36:030 o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2021-01-18 14:45:36:285 io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-01-18 14:45:36:286 io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-01-18 14:53:53:588 deacon.test.spb.SpbTestApplication - Starting SpbTestApplication on DeaconWong with PID 24416 (C:\Users\wangi\git\springresourceload\target\classes started by deacon in C:\Users\wangi\git\springresourceload)
+2021-01-18 14:53:53:588 deacon.test.spb.SpbTestApplication - The following profiles are active: dev
+2021-01-18 14:53:54:373 o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-18 14:53:54:376 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-18 14:53:54:424 o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 14ms. Found 0 Redis repository interfaces.
+2021-01-18 14:53:54:796 o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'redisConfig' of type [deacon.test.spb.config.RedisConfig$$EnhancerBySpringCGLIB$$4a4e056f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-18 14:53:55:245 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9091 (http)
+2021-01-18 14:53:55:261 o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9091"]
+2021-01-18 14:53:55:262 o.a.catalina.core.StandardService - Starting service [Tomcat]
+2021-01-18 14:53:55:263 o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.30]
+2021-01-18 14:53:55:649 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-01-18 14:53:55:650 o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1995 ms
+2021-01-18 14:53:56:405 o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-18 14:53:56:746 d.t.s.u.AcEomsDataCollectApplicationListener - 使用ResourceUtils在jar中加载配置文件-->:G:\workspaces\projects\project\2020\ywpt\spb-test\target\classes\application-dev.yml
+2021-01-18 14:53:56:748 o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9091"]
+2021-01-18 14:53:56:794 o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9091 (http) with context path ''
+2021-01-18 14:53:56:799 deacon.test.spb.SpbTestApplication - Started SpbTestApplication in 4.093 seconds (JVM running for 14.242)
+2021-01-18 14:54:04:619 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-18 14:54:04:620 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-01-18 14:54:04:631 o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2021-01-18 14:54:04:889 io.lettuce.core.EpollProvider - Starting without optional epoll library
+2021-01-18 14:54:04:891 io.lettuce.core.KqueueProvider - Starting without optional kqueue library
+2021-01-18 14:57:12:532 o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.

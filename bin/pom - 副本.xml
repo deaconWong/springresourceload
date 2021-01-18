@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>com.anche.jiance</groupId>
+		<artifactId>anche-jiance-base-support</artifactId>
+		<version>2.0</version>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<artifactId>anche-jiance-web-main</artifactId>
+	<packaging>war</packaging>
+	<!-- <packaging>jar</packaging> -->
+
+	<name>anche-jiance-web-main Maven Webapp</name>
+
+	<properties>
+		<timestamp>${maven.build.timestamp}</timestamp>
+		<maven.build.timestamp.format>yyyyMMddHHmm</maven.build.timestamp.format>
+	</properties>
+
+	<dependencies>
+		<!-- spring boot web -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-configuration-processor</artifactId>
+	        <optional>true</optional>
+    	</dependency>
+
+
+		<!-- spring boot test -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<!--ActiveMq -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-activemq</artifactId>
+		</dependency>
+
+		<!--消息队列连接池 -->
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-pool</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.thymeleaf.extras</groupId>
+			<artifactId>thymeleaf-extras-springsecurity5</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-framework</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<!-- spring security -->
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-security</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-db</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>com.sun.xml.bind</groupId>
+					<artifactId>jaxb-xjc</artifactId>
+				</exclusion>
+			</exclusions>
+			<version>${project.version}</version>
+		</dependency>
+		 		
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-config</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<!-- mybatis plus -->
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus</artifactId>
+		</dependency>
+		
+		<!-- logback日志包 -->
+		<!-- 
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+		</dependency>
+		 -->
+		 
+		<!-- <dependency> -->
+		<!-- <groupId>org.springframework.boot</groupId> -->
+		<!-- <artifactId>spring-boot-devtools</artifactId> -->
+		<!-- <optional>true</optional> -->
+		<!-- </dependency> -->
+
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>3.14.7</version>
+        </dependency>
+		
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-common</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+        
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-dispatch</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-select</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-vehiclelogin</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-api</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-datamanage</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-report</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-checkend</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-proxy</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-statistics</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>com.anche.jiance</groupId>
+			<artifactId>anche-jiance-fee</artifactId>
+			<version>${project.version}</version>
+		</dependency> 
+
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+
+	    <dependency>
+		    <groupId>commons-lang</groupId>
+		    <artifactId>commons-lang</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>2.9.2</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>commons-lang</groupId>
+					<artifactId>commons-lang</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports-fonts</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+		</dependency>
+		
+		<dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.5.10</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itext-asian</artifactId>
+            <version>5.2.0</version>
+        </dependency> 
+<dependency>
+  <groupId>org.apache.ftpserver</groupId>
+  <artifactId>ftpserver-core</artifactId>
+  <version>1.1.1</version>
+</dependency>
+<dependency>
+  <groupId>org.apache.ftpserver</groupId>
+  <artifactId>ftplet-api</artifactId>
+  <version>1.1.1</version>
+</dependency>
+
+<dependency>
+  <groupId>org.apache.mina</groupId>
+  <artifactId>mina-core</artifactId>
+  <version>2.0.16</version>
+</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-frontend-jaxws</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-transports-http -->
+		<dependency>
+			<groupId>org.apache.cxf</groupId>
+			<artifactId>cxf-rt-transports-http</artifactId>
+		</dependency>
+		<!-- html解析器 -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+		</dependency>
+		
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpmime -->
+		<dependency>
+		    <groupId>org.apache.httpcomponents</groupId>
+		    <artifactId>httpmime</artifactId>
+		    <version>4.2.3</version>
+		</dependency>
+		
+
+	<!--	<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+		</dependency>-->
+		
+	    <dependency>
+		    <groupId>org.yaml</groupId>
+		    <artifactId>snakeyaml</artifactId>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<resources>
+		    <!--注意此次必须要放在此目录下才能被访问到 -->
+			
+			 
+			<resource>
+				<directory>src/main/webapp</directory>
+				
+				<targetPath>/resources</targetPath>
+				<includes>
+					<include>**/**</include>
+				</includes>				
+			</resource>
+			
+			
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>**/*</include>
+				</includes>
+			</resource>
+			
+		</resources>
+		
+		<plugins>
+
+	        <!-- spring-boot-maven 打包插件 -->
+	        <plugin>
+	            <groupId>org.springframework.boot</groupId>
+	            <artifactId>spring-boot-maven-plugin</artifactId>
+	            <executions>
+	                <execution>
+	                    <goals>
+	                        <goal>repackage</goal>
+	                    </goals>
+	                </execution>
+	            </executions>
+	            <configuration>
+	                <!-- 热部署 -->
+	                <fork>true</fork>
+	                <!-- 排除依赖包 Step.1 -->
+	                <includes>
+	                    <include>
+	                        <groupId>nothing</groupId>
+	                        <artifactId>nothing</artifactId>
+	                    </include>
+	                </includes>
+	            </configuration>
+	        </plugin>
+	        <!-- 编译插件 -->
+	        <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-compiler-plugin</artifactId>
+	            <configuration>
+	                <source>1.8</source>
+	                <target>1.8</target>
+	                <encoding>UTF-8</encoding>
+	            </configuration>
+	        </plugin>
+	        <!-- Maven War 插件 -->
+	        <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-war-plugin</artifactId>
+	            <!-- 排除依赖包 Step.2 -->
+	            <configuration>
+	                <packagingExcludes>WEB-INF/lib/*.jar,assets/**,pages/**</packagingExcludes>
+	                
+	                <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>ac_files/libfiles/</classpathPrefix>
+                            <mainClass>com.anche.jiance.JianceApplication</mainClass>
+                        </manifest>
+                        
+                        <manifestEntries>
+							<!--MANIFEST.MF 中 Class-Path 加入资源文件目录，加入自定义路径，多个路径用空格隔开-->
+							<!--此处resources文件夹的内容，需要maven-resources-plugin插件补充上-->
+							<Class-Path>resources/</Class-Path>
+						</manifestEntries>
+                        
+                    </archive>
+                    
+                    <!--不打包资源文件，剔除配置文件-->
+	<!--				<excludes>
+						<exclude>*.**</exclude>
+						<exclude>*/*.xml</exclude>
+						<exclude>*.properties</exclude>
+		                <exclude>*.yml</exclude>
+		                <exclude>*/*.properties</exclude>
+		                <exclude>*/*.yml</exclude>
+					</excludes>
+-->
+	                
+	            </configuration>
+	            
+	        </plugin>
+	        
+	        
+	        <!-- 将静态资源文件单独打包到resources目录 -->
+	        <plugin>
+           		 <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-resources</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <resources>
+                                <resource>
+                                    <directory>src/main/resources</directory>
+									<!-- 开启变量替换，将 pom.xml 中的相关变量替换至 properties或yml 文件中 -->
+									<filtering>true</filtering>
+									<!-- 如果需要将yml文件打包到war包同级目录下，则需要排除在resources目录下 --> 
+									<excludes>
+									    <exclude>**/application.yml</exclude>
+									    <exclude>/VersionConfig.properties</exclude>
+									</excludes>
+									
+									<targetPath>${project.build.directory}/resources</targetPath>
+									 
+                                </resource>
+                                <!-- 将yml文件打包到war包同级目录
+                                <resource>
+                                    <directory>src/main/resources</directory>
+                                    <filtering>true</filtering>
+                                    <includes>
+                                        <include>**/application.yml</include>
+                                    </includes>
+                                    <targetPath>${project.build.directory}</targetPath>
+                                </resource>
+                                 -->
+                            </resources>
+                            <outputDirectory>${project.build.directory}/resources</outputDirectory>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+	        
+	        <!-- 将依赖包单独拷贝到 target/ac_files/libfiles 下 -->
+	        <plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-dependency-plugin</artifactId>
+	            <executions>
+	                <execution>
+	                    <id>copy-lib</id>
+	                    <phase>prepare-package</phase>
+	                    <goals>
+	                        <goal>copy-dependencies</goal>
+	                    </goals>
+	                    <configuration>
+	                        <outputDirectory>${project.build.directory}/ac_files/libfiles</outputDirectory>
+	                        <overWriteReleases>false</overWriteReleases>
+	                        <overWriteSnapshots>false</overWriteSnapshots>
+	                        <overWriteIfNewer>true</overWriteIfNewer>
+	                        <includeScope>compile</includeScope>
+	                    </configuration>
+	                </execution>
+	            </executions>
+	        </plugin>
+
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>timestamp-property</id>
+						<goals>
+							<goal>timestamp-property</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<name>timestamp</name>
+					<pattern>yyyyMMddHHmm</pattern>
+					<timeZone>GMT+8</timeZone>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
