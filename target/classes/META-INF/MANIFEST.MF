@@ -16,17 +16,18 @@ Class-Path: config/ spring-boot-starter-web-2.2.4.RELEASE.jar spring-b
  classmate-1.5.1.jar spring-web-5.2.3.RELEASE.jar spring-beans-5.2.3.R
  ELEASE.jar spring-webmvc-5.2.3.RELEASE.jar spring-aop-5.2.3.RELEASE.j
  ar spring-context-5.2.3.RELEASE.jar spring-expression-5.2.3.RELEASE.j
- ar slf4j-api-1.7.30.jar spring-core-5.2.3.RELEASE.jar spring-jcl-5.2.
- 3.RELEASE.jar spring-boot-starter-data-redis-2.2.4.RELEASE.jar spring
- -data-redis-2.2.4.RELEASE.jar spring-data-keyvalue-2.2.4.RELEASE.jar 
- spring-data-commons-2.2.4.RELEASE.jar spring-tx-5.2.3.RELEASE.jar spr
- ing-oxm-5.2.3.RELEASE.jar spring-context-support-5.2.3.RELEASE.jar co
- mmons-pool2-2.7.0.jar jackson-annotations-2.10.2.jar jackson-databind
- -2.10.2.jar jackson-core-2.10.2.jar lettuce-core-5.2.1.RELEASE.jar ne
- tty-common-4.1.45.Final.jar netty-handler-4.1.45.Final.jar netty-buff
- er-4.1.45.Final.jar netty-codec-4.1.45.Final.jar netty-transport-4.1.
- 45.Final.jar netty-resolver-4.1.45.Final.jar reactor-core-3.3.2.RELEA
- SE.jar reactive-streams-1.0.3.jar
+ ar spring-core-5.2.3.RELEASE.jar spring-jcl-5.2.3.RELEASE.jar spring-
+ boot-starter-data-redis-2.2.4.RELEASE.jar spring-data-redis-2.2.4.REL
+ EASE.jar spring-data-keyvalue-2.2.4.RELEASE.jar spring-data-commons-2
+ .2.4.RELEASE.jar spring-tx-5.2.3.RELEASE.jar spring-oxm-5.2.3.RELEASE
+ .jar commons-pool2-2.7.0.jar spring-boot-starter-cache-2.2.4.RELEASE.
+ jar spring-context-support-5.2.3.RELEASE.jar ehcache-2.10.6.jar slf4j
+ -api-1.7.30.jar jackson-annotations-2.10.2.jar jackson-databind-2.10.
+ 2.jar jackson-core-2.10.2.jar lettuce-core-5.2.1.RELEASE.jar netty-co
+ mmon-4.1.45.Final.jar netty-handler-4.1.45.Final.jar netty-buffer-4.1
+ .45.Final.jar netty-codec-4.1.45.Final.jar netty-transport-4.1.45.Fin
+ al.jar netty-resolver-4.1.45.Final.jar reactor-core-3.3.2.RELEASE.jar
+  reactive-streams-1.0.3.jar
 Build-Jdk-Spec: 1.8
 Created-By: Maven Integration for Eclipse
 Main-Class: deacon.test.spb.SpbTestApplication

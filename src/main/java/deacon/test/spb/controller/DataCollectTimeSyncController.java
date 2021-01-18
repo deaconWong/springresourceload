@@ -17,5 +17,12 @@ public class DataCollectTimeSyncController {
 
         return "testRedis-Cachable1";
     }
+    
+    @PostMapping(value = "/ehcache", produces =MediaType.APPLICATION_JSON_VALUE)
+    @Cacheable(value ="baseCache", cacheManager = "appEhCacheCacheManager")
+    public String ehcache(@RequestBody String jsonParam) {
+
+        return "testRedis-Cachable2";
+    }
 
 }
