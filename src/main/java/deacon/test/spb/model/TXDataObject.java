@@ -19,6 +19,7 @@ import com.google.common.base.Strings;
  * @author wanglm
  * @date 2020/07/14
  */
+
 public class TXDataObject {
 
     private static final Logger log = LoggerFactory.getLogger(TXDataObject.class);
