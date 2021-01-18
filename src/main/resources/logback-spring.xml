@@ -3,7 +3,7 @@
 	<appender name="consoleLog"
 		class="ch.qos.logback.core.ConsoleAppender">
 		<layout class="ch.qos.logback.classic.PatternLayout">
-			<pattern>%d{yyyy-MM-dd HH:mm:ss} -- %msg%n</pattern>
+			<pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{100}.%M\(%line\) - %msg%n</pattern>
 		</layout>
 	</appender>
 	<!-- SiftingAppender实现每个线程一个独立的日志文件 -->

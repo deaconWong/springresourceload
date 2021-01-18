@@ -1,27 +1,18 @@
 server:
-  port: 9093
-
-service:
-  url: 
-    updownload: http://localhost:5006 		#数据上传下载服务接口地址
-    jiance: http://localhost:8080/jiance  	#站端登录地址
-
-data:
-  collect: 
-    file: 
-      path:  #采集文件存放路径
-      name: #当前采集文件名称
-      offset:   # 采集文件当前偏移量
-
-jiance:
-  errlog:
-    path:  #站端错误日志路径
-  station:
-    name:  #检测站名称
-    id:  #检测站编号
-
-#数据采集定时任务启动间隔时间
-task:
-  corn:
-   datacollect: 0 0/5 * * * ?
-   platformstatus: 0 0/5 * * * ?
+  port: 9091
+  
+spring:
+  redis:
+    host: localhost
+    port: 16379
+    password:
+# 连接池最大连接数(使用负值表示没有限制) 默认为8
+    lettuce:
+      pool: 
+        max-active: 8
+# 连接池最大阻塞等待时间(使用负值表示没有限制) 默认为-1
+        max-wait: -1ms
+# 连接池中的最大空闲连接 默认为8
+        max-idle: 8
+# 连接池中的最小空闲连接 默认为 0
+        min-idle: 0

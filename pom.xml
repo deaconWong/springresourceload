@@ -23,7 +23,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
@@ -31,6 +31,38 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-redis</artifactId>
+			<!-- 如果想使用Jedis就注释掉, 默认使用Lettuce <exclusions> <exclusion> <groupId>io.lettuce</groupId> 
+				<artifactId>lettuce-core</artifactId> </exclusion> </exclusions> -->
+		</dependency>
+		<!-- 如果想使用Jedis ,就打开 <dependency> <groupId>redis.clients</groupId> <artifactId>jedis</artifactId> 
+			</dependency> -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-pool2</artifactId>
+		</dependency>
+
+		<!-- 使用ehcache时使用 <dependency> <groupId>org.springframework.boot</groupId> 
+			<artifactId>spring-boot-starter-cache</artifactId> </dependency> -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-annotations</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>io.lettuce</groupId>
+			<artifactId>lettuce-core</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<profiles>
@@ -87,7 +119,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<classpathPrefix></classpathPrefix>
-							<mainClass>deacon.test.spb.SpbTestApplication2</mainClass>
+							<mainClass>deacon.test.spb.SpbTestApplication</mainClass>
 						</manifest>
 						<manifestEntries>
 							<!--MANIFEST.MF 中 Class-Path 加入资源文件目录，加入自定义路径，多个路径用空格隔开 -->
@@ -129,32 +161,18 @@
 				</executions>
 			</plugin>
 		</plugins>
-		
-		 <!-- 如果需要的话, 将依赖包单独拷贝到 target/ac_files/libfiles 下  名称与classpathPrefix对应
-	        <plugin>
-	            <groupId>org.apache.maven.plugins</groupId>
-	            <artifactId>maven-dependency-plugin</artifactId>
-	            <executions>
-	                <execution>
-	                    <id>copy-lib</id>
-	                    <phase>prepare-package</phase>
-	                    <goals>
-	                        <goal>copy-dependencies</goal>
-	                    </goals>
-	                    <configuration>
-	                        <outputDirectory>${project.build.directory}/ac_files/libfiles</outputDirectory>
-	                        <overWriteReleases>false</overWriteReleases>
-	                        <overWriteSnapshots>false</overWriteSnapshots>
-	                        <overWriteIfNewer>true</overWriteIfNewer>
-	                        <includeScope>compile</includeScope>
-	                    </configuration>
-	                </execution>
-	            </executions>
-	        </plugin> -->
+
+		<!-- 如果需要的话, 将依赖包单独拷贝到 target/ac_files/libfiles 下 名称与classpathPrefix对应 
+			<plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-dependency-plugin</artifactId> 
+			<executions> <execution> <id>copy-lib</id> <phase>prepare-package</phase> 
+			<goals> <goal>copy-dependencies</goal> </goals> <configuration> <outputDirectory>${project.build.directory}/ac_files/libfiles</outputDirectory> 
+			<overWriteReleases>false</overWriteReleases> <overWriteSnapshots>false</overWriteSnapshots> 
+			<overWriteIfNewer>true</overWriteIfNewer> <includeScope>compile</includeScope> 
+			</configuration> </execution> </executions> </plugin> -->
 
 	</build>
-	
-	
+
+
 
 
 	<repositories>
