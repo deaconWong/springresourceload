@@ -29,6 +29,8 @@ public class CacheConfiguration {
         cacheManagerFactoryBean.setConfigLocation(new ClassPathResource("ehcache.xml"));
         cacheManagerFactoryBean.setShared(true);
         return cacheManagerFactoryBean;
+        
+        //tst
     }
     
 }
