@@ -27,7 +27,13 @@ Class-Path: config/ spring-boot-starter-web-2.2.4.RELEASE.jar spring-b
  mmon-4.1.45.Final.jar netty-handler-4.1.45.Final.jar netty-buffer-4.1
  .45.Final.jar netty-codec-4.1.45.Final.jar netty-transport-4.1.45.Fin
  al.jar netty-resolver-4.1.45.Final.jar reactor-core-3.3.2.RELEASE.jar
-  reactive-streams-1.0.3.jar
+  reactive-streams-1.0.3.jar fastjson-1.2.9.jar guava-21.0.jar spring-
+ boot-starter-activemq-2.2.4.RELEASE.jar spring-jms-5.2.3.RELEASE.jar 
+ spring-messaging-5.2.3.RELEASE.jar activemq-broker-5.15.11.jar active
+ mq-openwire-legacy-5.15.11.jar jakarta.jms-api-2.0.3.jar activemq-poo
+ l-5.15.11.jar activemq-jms-pool-5.15.11.jar geronimo-jms_1.1_spec-1.1
+ .1.jar activemq-client-5.15.11.jar hawtbuf-1.11.jar geronimo-j2ee-man
+ agement_1.1_spec-1.0.1.jar geronimo-jta_1.1_spec-1.1.1.jar
 Build-Jdk-Spec: 1.8
 Created-By: Maven Integration for Eclipse
 Main-Class: deacon.test.spb.SpbTestApplication
