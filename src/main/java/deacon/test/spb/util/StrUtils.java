@@ -3,7 +3,7 @@ package deacon.test.spb.util;
 public class StrUtils {
     private StrUtils()
     {
-        
+          
     }
 	public static String lowerFirst(CharSequence str) {
 		if (null == str) {
