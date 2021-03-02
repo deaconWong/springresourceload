@@ -20,3 +20,16 @@ spring:
         max-idle: 8
 # 连接池中的最小空闲连接 默认为 0
         min-idle: 0
+pulsar:
+  # 服务器地址
+  serviceUrl: pulsar://192.168.1.188:6650
+  # io线程数默认10
+  ioThreads: 10
+  # listener线程数默认10
+  listenerThreads: 10
+  # JSON/JSONArray格式数据的生产者的topic，多个使用英文逗号分隔
+  jsonProducers: producer1-json
+  # string格式数据的生产者的topic，多个使用英文逗号分隔
+  stringProducers: producer2-str
+  # 消费者topic，多个使用英文逗号分隔
+  consumers: consumers1,consumers2,consumers3
